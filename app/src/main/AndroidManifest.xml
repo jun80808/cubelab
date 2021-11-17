@@ -16,7 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Category3"></activity>
+        <activity android:name=".fragment1"></activity>
+        <activity android:name=".Category3" />
         <activity android:name=".Category2" />
         <activity android:name=".Category1" />
         <activity

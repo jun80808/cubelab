@@ -1,4 +1,4 @@
-package com.example.onbid
+package com.example.cubelab
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Handler().postDelayed({
-            startActivity(Intent(this,hometab::class.java))
-
-        }, 3000)
+//        Handler().postDelayed({
+////            startActivity(Intent(this,hometab::class.java))
+//
+//        }, 3000)
     }
 
 

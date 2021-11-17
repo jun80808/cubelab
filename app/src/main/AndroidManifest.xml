@@ -9,17 +9,18 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_cubelab"
+        android:icon="@mipmap/ic_cubelab_main2_foreground"
         android:label="@string/app_name"
         android:networkSecurityConfig="@xml/network"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".fragment1"></activity>
-        <activity android:name=".Category3" />
-        <activity android:name=".Category2" />
-        <activity android:name=".Category1" />
+        <activity android:name=".category.Category"></activity>
+        <activity android:name=".fragment1" />
+        <activity android:name=".category.Category3" />
+        <activity android:name=".category.Category2" />
+        <activity android:name=".category.Category1" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"

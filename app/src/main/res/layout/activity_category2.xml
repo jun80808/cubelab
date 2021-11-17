@@ -3,11 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Category2">
+    tools:context=".category.Category2">
 
 
     <LinearLayout
@@ -46,7 +45,7 @@
             app:lottie_fileName="load.json"
             app:lottie_loop="true" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_view_grid4"
+            android:id="@+id/recycler_view_grid2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </LinearLayout>

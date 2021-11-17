@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="40dp"
-    tools:context=".fragment.fragment1">
+    tools:context=".category.Category">
 
 
-        <LinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-            <ImageView
+        <ImageView
             android:id="@+id/login_backpress"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:src="@drawable/ic_baseline_dehaze_24" />
 
-            <TextView
+        <TextView
             android:layout_marginLeft="40dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,459 +33,461 @@ xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
         <LinearLayout
-            android:id="@+id/fragment1_1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_borderbox"
-            android:orientation="horizontal"
-            android:padding="15dp"
-            android:weightSum="100">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="90"
-                android:text="1. F/APRON"
-                android:textSize="23dp" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="20"
-                android:background="@drawable/ic_baseline_chevron_right_24"/>
-        </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/fragment1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
 
-    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="1. F/APRON"
+                        android:textSize="23dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
 
-        <LinearLayout
-            android:id="@+id/fragment1_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_borderbox"
-            android:orientation="horizontal"
-            android:padding="15dp"
-            android:weightSum="100">
 
-            <TextView
-                android:layout_width="wrap_content"
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="90"
-                android:text="2. DASH"
-                android:textSize="23dp" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="20"
-                android:background="@drawable/ic_baseline_chevron_right_24"/>
-        </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/fragment1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
 
-    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="2. DASH"
+                        android:textSize="23dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/fragment1_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_borderbox"
-            android:orientation="horizontal"
-            android:padding="15dp"
-            android:weightSum="100">
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="90"
-                android:text="3. CTR FLR"
-                android:textSize="23dp" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="20"
-                android:background="@drawable/ic_baseline_chevron_right_24"/>
-        </LinearLayout>
-    </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/fragment1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="3. CTR FLR"
+                        android:textSize="23dp" />
 
-        <LinearLayout
-            android:id="@+id/fragment1_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_borderbox"
-            android:orientation="horizontal"
-            android:padding="15dp"
-            android:weightSum="100">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="90"
-                android:text="4. FRT FLR"
-                android:textSize="23dp" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="20"
-                android:background="@drawable/ic_baseline_chevron_right_24"/>
-        </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/fragment1_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="4. FRT FLR"
+                        android:textSize="23dp" />
 
-        <LinearLayout
-            android:id="@+id/fragment1_5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_borderbox"
-            android:orientation="horizontal"
-            android:padding="15dp"
-            android:weightSum="100">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="90"
-                android:text="5. FLR COMPL"
-                android:textSize="23dp" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="20"
-                android:background="@drawable/ic_baseline_chevron_right_24"/>
-        </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/fragment1_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="5. FLR COMPL"
+                        android:textSize="23dp" />
 
-        <LinearLayout
-            android:id="@+id/fragment1_6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_borderbox"
-            android:orientation="horizontal"
-            android:padding="15dp"
-            android:weightSum="100">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="90"
-                android:text="6. SD OTR"
-                android:textSize="23dp" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="20"
-                android:background="@drawable/ic_baseline_chevron_right_24"/>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/fragment1_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
 
-        <LinearLayout
-            android:id="@+id/fragment1_7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_borderbox"
-            android:orientation="horizontal"
-            android:padding="15dp"
-            android:weightSum="100">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="6. SD OTR"
+                        android:textSize="23dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="90"
-                android:text="7. REINF"
-                android:textSize="23dp" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="20"
-                android:background="@drawable/ic_baseline_chevron_right_24"/>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/fragment1_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
 
-        <LinearLayout
-            android:id="@+id/fragment1_8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_borderbox"
-            android:orientation="horizontal"
-            android:padding="15dp"
-            android:weightSum="100">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="7. REINF"
+                        android:textSize="23dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="90"
-                android:text="8. EXTN"
-                android:textSize="23dp" />
+                android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="20"
-                android:background="@drawable/ic_baseline_chevron_right_24"/>
+                <LinearLayout
+                    android:id="@+id/fragment1_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="8. EXTN"
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fragment1_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="9. QTR"
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fragment1_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="10. SD KEY"
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fragment1_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="11.SD ASSY "
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fragment1_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="12. HOOD STAY"
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fragment1_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="13. DOOR"
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fragment1_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="14. ROOF"
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fragment1_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_borderbox"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:text="15. T/GATE"
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:background="@drawable/ic_baseline_chevron_right_24"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
         </LinearLayout>
-    </LinearLayout>
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:orientation="horizontal">
-
-             <LinearLayout
-                 android:id="@+id/fragment1_9"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:background="@drawable/login_borderbox"
-                 android:orientation="horizontal"
-                 android:padding="15dp"
-                 android:weightSum="100">
-
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_weight="90"
-                     android:text="9. QTR"
-                     android:textSize="23dp" />
-
-                 <ImageView
-                     android:layout_width="wrap_content"
-                     android:layout_height="match_parent"
-                     android:layout_weight="20"
-                     android:background="@drawable/ic_baseline_chevron_right_24"/>
-             </LinearLayout>
-         </LinearLayout>
-
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:orientation="horizontal">
-
-             <LinearLayout
-                 android:id="@+id/fragment1_10"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:background="@drawable/login_borderbox"
-                 android:orientation="horizontal"
-                 android:padding="15dp"
-                 android:weightSum="100">
-
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_weight="90"
-                     android:text="10. SD KEY"
-                     android:textSize="23dp" />
-
-                 <ImageView
-                     android:layout_width="wrap_content"
-                     android:layout_height="match_parent"
-                     android:layout_weight="20"
-                     android:background="@drawable/ic_baseline_chevron_right_24"/>
-             </LinearLayout>
-         </LinearLayout>
-
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:orientation="horizontal">
-
-             <LinearLayout
-                 android:id="@+id/fragment1_11"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:background="@drawable/login_borderbox"
-                 android:orientation="horizontal"
-                 android:padding="15dp"
-                 android:weightSum="100">
-
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_weight="90"
-                     android:text="11.SD ASSY "
-                     android:textSize="23dp" />
-
-                 <ImageView
-                     android:layout_width="wrap_content"
-                     android:layout_height="match_parent"
-                     android:layout_weight="20"
-                     android:background="@drawable/ic_baseline_chevron_right_24"/>
-             </LinearLayout>
-         </LinearLayout>
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:orientation="horizontal">
-
-             <LinearLayout
-                 android:id="@+id/fragment1_12"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:background="@drawable/login_borderbox"
-                 android:orientation="horizontal"
-                 android:padding="15dp"
-                 android:weightSum="100">
-
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_weight="90"
-                     android:text="12. HOOD STAY"
-                     android:textSize="23dp" />
-
-                 <ImageView
-                     android:layout_width="wrap_content"
-                     android:layout_height="match_parent"
-                     android:layout_weight="20"
-                     android:background="@drawable/ic_baseline_chevron_right_24"/>
-             </LinearLayout>
-         </LinearLayout>
-
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:orientation="horizontal">
-
-             <LinearLayout
-                 android:id="@+id/fragment1_13"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:background="@drawable/login_borderbox"
-                 android:orientation="horizontal"
-                 android:padding="15dp"
-                 android:weightSum="100">
-
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_weight="90"
-                     android:text="13. DOOR"
-                     android:textSize="23dp" />
-
-                 <ImageView
-                     android:layout_width="wrap_content"
-                     android:layout_height="match_parent"
-                     android:layout_weight="20"
-                     android:background="@drawable/ic_baseline_chevron_right_24"/>
-             </LinearLayout>
-         </LinearLayout>
-
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:orientation="horizontal">
-
-             <LinearLayout
-                 android:id="@+id/fragment1_14"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:background="@drawable/login_borderbox"
-                 android:orientation="horizontal"
-                 android:padding="15dp"
-                 android:weightSum="100">
-
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_weight="90"
-                     android:text="14. ROOF"
-                     android:textSize="23dp" />
-
-                 <ImageView
-                     android:layout_width="wrap_content"
-                     android:layout_height="match_parent"
-                     android:layout_weight="20"
-                     android:background="@drawable/ic_baseline_chevron_right_24"/>
-             </LinearLayout>
-         </LinearLayout>
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:orientation="horizontal">
-
-             <LinearLayout
-                 android:id="@+id/fragment1_15"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_marginTop="20dp"
-                 android:background="@drawable/login_borderbox"
-                 android:orientation="horizontal"
-                 android:padding="15dp"
-                 android:weightSum="100">
-
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_weight="90"
-                     android:text="15. T/GATE"
-                     android:textSize="23dp" />
-
-                 <ImageView
-                     android:layout_width="wrap_content"
-                     android:layout_height="match_parent"
-                     android:layout_weight="20"
-                     android:background="@drawable/ic_baseline_chevron_right_24"/>
-             </LinearLayout>
-         </LinearLayout>
-
-
-    </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373525493455",
+    "project_id": "cubelab-firebase-file",
+    "storage_bucket": "cubelab-firebase-file.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373525493455:android:47f1144f10870eb1d9a9ba",
+        "android_client_info": {
+          "package_name": "com.example.cubelab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373525493455-45hlcqc0qcqgtd5chrkqlqp0ngjg7bip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1z5PRiJisTn72ChX_fZ4XkvO5usPfp9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373525493455-45hlcqc0qcqgtd5chrkqlqp0ngjg7bip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -30,26 +30,6 @@
             android:textSize="40dp" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/btn_search_backpress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="8dp"
-            android:src="@drawable/ic_baseline_keyboard_arrow_left_24_white" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="120dp"
-            android:text="1. F/APRON"
-            android:textSize="40dp" />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

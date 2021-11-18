@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.view.MenuInflater
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import com.example.cubelab.R
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 ////            startActivity(Intent(this,hometab::class.java))
 //
 //        }, 3000)
+
     }
 
 

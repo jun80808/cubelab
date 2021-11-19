@@ -8,13 +8,13 @@ import android.view.MenuInflater
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import com.example.cubelab.R
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.*
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login)
 //        Handler().postDelayed({
 ////            startActivity(Intent(this,hometab::class.java))
 //

@@ -44,7 +44,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:id="@+id/fragment1_1"
+                    android:id="@+id/btn_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -74,6 +74,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_2"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -105,6 +106,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_3"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -135,10 +137,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_4"
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:id="@+id/fragment1_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -160,11 +162,12 @@
                         android:layout_weight="20"
                         android:background="@drawable/ic_baseline_chevron_right_24"/>
                 </LinearLayout>
-
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_5"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -190,11 +193,12 @@
                         android:layout_weight="20"
                         android:background="@drawable/ic_baseline_chevron_right_24"/>
                 </LinearLayout>
-
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_6"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -221,9 +225,11 @@
                         android:background="@drawable/ic_baseline_chevron_right_24"/>
                 </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_7"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -250,9 +256,11 @@
                         android:background="@drawable/ic_baseline_chevron_right_24"/>
                 </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_8"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -279,9 +287,11 @@
                         android:background="@drawable/ic_baseline_chevron_right_24"/>
                 </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_9"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -312,6 +322,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_10"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -342,6 +353,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_11"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -368,9 +380,11 @@
                         android:background="@drawable/ic_baseline_chevron_right_24"/>
                 </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_12"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -401,6 +415,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_13"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -431,6 +446,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_14"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -460,6 +476,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_15"
                 android:orientation="horizontal">
 
                 <LinearLayout

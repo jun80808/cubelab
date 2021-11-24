@@ -29,6 +29,7 @@
             android:text="4. FRT FLR"
             android:textSize="40dp" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

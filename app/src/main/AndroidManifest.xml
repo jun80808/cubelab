@@ -19,9 +19,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-        <activity
-            android:name=".category.Category"
-            android:exported="false" />
+
         <activity
             android:name=".Intro"
             android:label="@string/app_name"
@@ -31,8 +29,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".loading" />
+        <activity android:name=".category.Category" />
+        <activity android:name=".category.Category1" android:parentActivityName=".category.Category"/>
     </application>
 
 </manifest>

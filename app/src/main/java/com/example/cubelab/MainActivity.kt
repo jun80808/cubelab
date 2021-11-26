@@ -8,6 +8,7 @@ import android.view.MenuInflater
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import com.example.cubelab.R
+import com.example.cubelab.category.Category
 import kotlinx.android.synthetic.main.*
 import kotlinx.android.synthetic.main.activity_login.*
 import java.util.*
@@ -18,8 +19,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        val intent = Intent(this, Category::class.java)
+
         btn_login.setOnClickListener({
-            val intent = Intent(this, Locale.Category::class.java)
             startActivity(intent)
         })
 //        Handler().postDelayed({

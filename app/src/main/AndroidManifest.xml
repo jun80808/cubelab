@@ -19,9 +19,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-        <activity
-            android:name=".category.Category"
-            android:exported="false" />
+
         <activity
             android:name=".Intro"
             android:label="@string/app_name"
@@ -32,7 +30,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".loading" />
+        <activity android:name=".category.Category">
+
+        </activity>
+        <activity android:name=".category.Category1"></activity>
+        <activity android:name=".category.Category2"></activity>
+        <activity android:name=".category.Category3"></activity>
+        <activity android:name=".category.Category4"></activity>
+        <activity android:name=".category.Category5"></activity>
+        <activity android:name=".category.Category6"></activity>
+        <activity android:name=".category.Category7"></activity>
+        <activity android:name=".category.Category8"></activity>
+        <activity android:name=".category.Category9"></activity>
+        <activity android:name=".category.Category10"></activity>
+        <activity android:name=".category.Category11"></activity>
+        <activity android:name=".category.Category12"></activity>
+        <activity android:name=".category.Category13"></activity>
+        <activity android:name=".category.Category14"></activity>
+        <activity android:name=".category.Category15"></activity>
+
+
     </application>
 
 </manifest>
